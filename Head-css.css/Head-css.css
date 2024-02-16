@@ -1,0 +1,789 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+button:hover {
+    cursor: pointer;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+.header-wrapper {
+    background-color: rgba(0, 0, 0, 0.7);
+    
+}
+
+.header-content {
+    display: flex;
+    padding: 1% 0px 1% 2%;
+}
+.header-content-img{
+    padding-left: 2%;
+    width: 30px;
+    height: 30px;
+    margin-top: 0.5%;
+}
+
+.header-content h1 {
+    margin-left: 1%;
+    margin-top: 0.1%;
+    color: white;
+}
+
+.header-text {
+    margin-top: 1%;
+    margin-left: 17%;
+    display: flex;
+}
+
+.header-text span {
+    color: white;
+    padding-left: 33px;
+}
+
+.header-text span:hover {
+    color: #FBBE0B;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.Header-button {
+    height: 30px;
+    width: 10%;
+
+    margin-left: 15%;
+    margin-top: 0.3%;
+    padding-top: 10px;
+
+    text-align: center;
+
+    background-color: #2000C2;
+    border: #2000C2 solid 1px;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+}
+
+.Header-button:hover {
+    background-color: #190486;
+    border: #190486 solid 1px;
+    transition: 1s all;
+}
+
+.hamburger-menu {
+    margin-top: 5px;
+    display: none;
+    
+    margin-left: 50%;
+}
+
+.hamburger-menu hr {
+    width: 35px;
+    height: 2px;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.hamburger-menu hr:first-child {
+    margin-bottom: 8px;
+}
+
+.second-hr {
+    margin-bottom: 8px;
+}
+
+.header-text-humburger {
+    position: absolute;
+    right: 0;
+    width: 100px;
+    height: 180px;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 57.5px;
+    opacity: 0;
+    transition: 1s all;
+}
+
+.header-text-humburger a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    
+    padding-top: 10px;
+    text-align: center;
+}
+
+.header-text-humburger a:hover {
+    color: #FBBE0B;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.header-text-humburger span {
+    color: white;
+    display: block;
+    
+    padding-top: 10px;
+    text-align: center;
+}
+
+.header-text-humburger span:hover {
+    color: #FBBE0B;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.Start-wrapper {
+    background: linear-gradient( rgba(0,0,0,0.65),  rgba(0,0,0,0.65)),url(../photos/main-photo-auto.jpeg) ;
+    background-size: cover;
+    height: 850px;
+}
+
+.Start-text {
+    padding-left: 10%;
+}
+
+.Start-text h1 {
+    font-size: 400%;
+    width: 70%;
+    padding-top: 15%;
+    color: white;
+}
+
+.Start-text p {
+    color: white;
+    padding-top: 2%;
+    font-size: 125%;
+    padding-bottom: 2%;
+}
+
+.Start-text button {
+    height: 40px;
+    border-radius: 20px;
+
+}
+
+.start-button-1 {
+    background-color: #2000C2;
+    border: #2000C2 solid 1px;
+    color: white;
+    width: 12%;
+}
+
+.start-button-2 {
+    margin-left: 5%;
+    background-color: white;
+    border: white solid 1px;
+    color: black;
+    width: 10%;
+}
+
+.start-button-1:hover {
+    background-color: #190486;
+    border: #190486 solid 1px;
+    transition: 1s all;
+}
+
+.start-button-2:hover {
+    background-color: #c4c4c4;
+    border: #c4c4c4 solid 1px;
+    transition: 1s all;
+}
+
+.Why-us-wrapper {
+    background-color: #191919;
+    height: 800px;
+}
+
+.Why-us-content h1 {
+    font-size: 400%;
+    text-align: center;
+    color: white;
+    padding-top: 0.5%;
+    padding-bottom:4%;
+}
+
+.green-square {
+    border: #4BCC06 solid 1px;
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    margin-top: 7%;
+    color: #4BCC06;
+    background-color: #4BCC06;
+    margin-left: 13%;
+    
+}
+
+.Why-us-content p {
+    padding-top: 6.5%;
+    padding-left: 2%;
+    color: white;
+    display: block;
+}
+
+.Why-us-text {
+    display: flex;
+}
+
+.Why-us-content-text-column-1 {
+    border-right: white solid 1px;
+    width: 25%;
+    margin-left: 4%;
+
+}
+
+.Why-us-content-text-column-1 hr{
+    opacity: 0;
+    height: 1px;
+    width: 100%;
+    border: white solid 1px;
+    background-color: white;    
+}
+
+.Why-us-colums {
+    display: flex;
+}
+
+.Why-us-colums h1 {
+    font-size: 2vw;
+    padding-bottom: 2%;
+    padding-right: 50%;
+}
+
+.Why-us-colum-2-text {
+    width: 85%;
+}
+
+.Why-us-content-text-column-2 {
+    width: 35%;
+    padding-left: 3%;
+    border-right: white solid 1px;
+    min-width: 300px;
+
+}
+
+.Why-us-content-text-column-2 hr {
+    opacity: 0;
+    height: 1px;
+    width: 100%;
+    border: white solid 1px;
+    background-color: white;
+}
+
+.Why-us-content-text-column-3 {
+    width: 35%;
+    margin-left: 5%;
+}
+
+.Why-us-colum-3-text p {
+    width: 75%;
+}
+
+.Why-us-colum-3-button {
+    margin-left: 1%;
+    width: 100px;
+    background-color: #2000C2;
+    border: #2000C2 solid 1px;
+    padding: 2.5%;
+    margin-top: 10%;
+    border-radius: 20px;
+    color: white;
+}
+
+.Why-us-colum-3-button:hover {
+    transition: 1s all;
+    background-color: #190486;
+    border: #191919 solid 1px;
+}
+
+.Why-us-cards {
+    display: flex;
+    margin-top: 7%;
+    width: 100%;
+}
+
+.why-us-card-1top-mini {
+    display: flex;
+}
+.why-us-card-2top-mini {
+    display: flex;
+}
+
+.Why-us-card {
+    margin-left: 20px;
+    width: 50%;
+    height: 200px;
+
+}
+
+.Why-us-card:hover {
+    background-color: #131313;
+    transition: 1s all;
+}
+
+
+.Why-us-cards img{
+    padding-top: 5%;
+    width: 40%;
+    padding-left: 30%;
+    padding-bottom: 5%;
+}
+
+.Why-us-cards p {
+    font-size: 150%;
+}
+
+.Why-us-cards-1 p{
+    text-align: center;
+    padding-left: 2%;
+}
+
+.Why-us-cards-2 p{
+    text-align: center;
+    padding-left: 5%;
+}
+
+.Why-us-cards-3 p{
+    text-align: center;
+    padding-left: 8%;
+}
+
+.Why-us-cards-4 p{
+    text-align: center;
+    padding-left: 8%;
+}
+
+.Why-us-cards-5 p{
+    text-align: center;
+    padding-left: 5%;
+}
+
+.Our-workers-wrapper {
+    width: 100%;
+    height: 800px;
+}
+
+.Our-workers-content {
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+.Our-workers-content h1 {
+    font-size: 400%;
+    margin-left: 4.5%;
+}
+
+.Our-workers-content p {
+    color: #FBBE0B;
+    margin-left: 4.5%;
+}
+
+.Our-workers-main-content {
+    display: flex;
+}
+
+.Our-workers-main-content img {
+    width: 90%;
+    height: 465px;
+    
+}
+
+.first-workers-col {
+    margin-top: 7%;
+    margin-left: 5%;
+}
+
+.second-workers-col {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.third-workers-col {
+    margin-left: 5%;
+}
+
+.text-workers {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.text-workers p {
+    margin-top: 2%;
+}
+
+.contact-us-wrapper {
+    background-color: #191919;
+    width: 100%;
+    height: 800px;
+}
+
+.contact-us-content h1 {
+    text-align: center;
+    color: white;
+    padding-top: 1.5%;
+    font-size: 400%;
+}
+
+.contact-cards {
+    max-width: 600px;
+    width: 41%;
+    height: 178px;
+    margin-top: 3%;
+}
+
+.contact-card-1 {
+    margin-left: 7%;
+    background-color: #384452;
+    color: white;
+}
+
+.contact-card-2 {
+    margin-left: 50%;
+    background-color: #878B94;
+    margin-right: 7%;
+}
+
+.contact-card-3 {
+    margin-left: 7%;
+    background-color: #2F4F4E;
+    color: white;
+}
+
+.contact-text {
+    text-align: center;
+}
+
+.contact-text h3 {
+    padding-top: 5%;
+    font-size: 180%;
+}
+
+.contact-card-2 button{
+    margin-top: 5%;
+    padding: 2% 4%;
+    border: 1px solid white;
+    background-color: #878B94;
+    color: white;
+}
+
+.contact-card-2 button:hover {
+    background-color: #808B90;
+    transition: 1s all;
+}
+
+.Offer-wrapper {
+    height: 500px;
+}
+
+.Offer-content h1 {
+    text-align: center;
+    font-size: 400%;
+    margin-top: 3%;
+}
+
+.offer-cards {
+    display: flex;
+}
+
+.offer-card {
+    width: 35%;
+    height: 273px;
+
+    margin-top: 5%;
+    margin-left: 10%;
+    text-align: center;
+    color: white;
+    font-size: 200%;
+}
+
+.offer-card-1 {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../photos/main-photo-auto-2.jpeg);
+    background-size: cover;
+    
+}
+
+.offer-card-2 {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../photos/main-photo-auto-3.jpeg);
+}
+
+.offer-card button {
+    padding: 2% 6%;
+    margin-top: 10%;
+    background-color: #2000C2;
+    border: #2000C2 solid 1px;
+    color: white;
+}
+
+.offer-card button:hover {
+    transition: 1s all;
+    background-color: #190486;
+    border: #190486 solid 1px;
+}
+
+.offer-card-text {
+    padding-top: 13%;
+}
+
+.footer-wrapper {
+    background-color: #2000C2;
+    height: 350px;
+}
+
+.footer-content {
+    color: white;
+    text-align: center;
+}
+
+.footer-text {
+    padding-top: 5%;
+}
+.footer-text h1 {
+    margin-bottom: 2%;
+}
+
+.footer-text hr {
+    width: 55%;
+    margin-left: 23%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+.active {
+    opacity: 1;
+}
+
+@media (min-width: 1090px){
+    .header-text-humburger {
+        display: none;
+    }
+}
+
+@media (max-width:1090px){
+    
+    .header-text {
+        margin-left: 10%;
+    }
+    
+    .header-text a {
+        padding-left: 30px;
+    }
+
+    .header-text-humburger {
+        display: none;
+    }
+}
+
+@media (max-width:990px) {
+    .header-text {
+        display: none;
+    }
+    .header-content a {
+        display: none;
+    }
+
+    .header-text-humburger a {
+        display: block;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+    .header-content-img{
+        padding-left: 8%;
+    }
+
+    .Why-us-cards {
+        margin-top: 15%;
+    }
+    
+    
+    .Why-us-card {
+        margin-left: 35px;
+    }
+
+    .contact-text h3 {
+        font-size: 155%;
+    }
+
+    .header-text-humburger {
+        display: block;
+    }
+
+}
+
+@media (max-width:932px) {
+    .Why-us-colums h1 {
+        font-size: 3vw;
+    }
+
+
+    .start-button-1 {
+        width: 20%;
+    }
+    
+    .start-button-2 {
+        width: 15%;
+    }
+
+    .Why-us-card {
+        width: 200px;
+    } 
+
+    .why-us-card-1top-mini {
+        margin-left: 120px;
+    }
+
+    .Why-us-cards {
+        display: block;
+        margin-top: 5%;
+    }
+
+    .Why-us-card {
+        width: 200px;
+        height: 150px;
+    
+    }
+}
+
+@media (max-width:730px) {
+
+    
+    .Why-us-content-text-column-3 {
+        width: 45%;
+        margin-left: 3%;
+    }   
+    
+    .Why-us-card {
+        width: 150px;
+        height: 150px;
+    
+    }
+
+} 
+
+@media (max-width:660px) {
+    .hamburger-menu {
+        margin-left: 25%;
+    }
+
+    .Start-text h1 {
+        font-size: 10.5vw;
+        padding-top: 20%;
+        width: 80%;
+    }
+    
+
+    .Why-us-wrapper {
+        height: 1200px;
+    }
+
+    .Why-us-colums {
+        display: block;
+        
+    }
+
+
+
+    .Why-us-content-text-column-1 {
+        width: 80%;
+        border-right: none;
+        padding-bottom:15px;
+        margin-left: 40px;
+    }
+
+    .Why-us-content-text-column-1 hr {
+        opacity: 1;
+        margin: 10px 0;
+        margin-left: 40px;
+        width: 80%;
+    }
+    
+    .Why-us-colums h1 {
+        font-size: 5vw;
+        padding-bottom: 2%;
+        padding-right: 50%;
+    }
+    .Why-us-content-text-column-2 {
+        border-right: none;
+        width: 80%;
+        margin-left: 50px;
+    }
+
+    .Why-us-content-text-column-2 hr {
+        opacity: 1;
+        margin: 10px 0;
+    }
+
+    .Why-us-content-text-column-3 {
+        width: 80%;
+        margin-left: 70px;
+
+    }
+
+    .Why-us-card {
+        margin: 0 auto;
+    }
+
+    .why-us-card-1top-mini {
+        margin-left: 40px;
+        width: 75%;
+    }
+    .why-us-card-2top-mini {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    
+    .Our-workers-wrapper {
+        height: 1800px;
+    }
+    
+    .Our-workers-main-content {
+        display: block;
+    }
+   
+    .first-workers-col {
+        margin-top: 3%;
+        text-align: center;    }
+    
+    .second-workers-col {
+        margin-top: 3%;
+        text-align: center;    }
+    
+    .third-workers-col {
+        margin-top: 3%;
+        text-align: center;
+    }
+    .contact-cards {
+        margin-top: 50px;
+        width: 81%;
+    }
+    
+    .contact-card-2 {
+        margin: 25px 0px;
+        margin-left: 7%;   
+    }
+    
+    .contact-text h3 {
+        font-size: 150%;
+    }
+    
+    .Offer-wrapper {
+        height: 700px;
+    }
+    
+    .offer-cards {
+        display: block;
+    }
+    
+    .offer-card {
+        width: 80%;
+    }
+    
+}
